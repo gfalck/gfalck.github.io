@@ -4,22 +4,36 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
+      /* GLOBAL STYLES */
       a {
         color: red;
+      }
+
+      /* TEST STYLES */
+      html {
+        background: red;
+      }
+
+      /* SOCIAL STYLES */
+      .social-link {
+        color: blue;
+      }
+
+      /* BIO STYLES*/
+      div.bio-box {
+        border: 1px solid green;
+      }
+      .bio-copy a {
+        color: green;
       }
       .bio-box {
         border: 1px solid black;
       }
-      .bio-box a {
-        color: green;
-      }
-      .social-link {
-        color: blue;
-      }
+
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
+    <h1 class="social-link">I'm an h1</h1>
     <ul>
       <li>
         <a href="http://example.com/">Link</a>
@@ -61,7 +75,7 @@
           interfaces, doing front-end development, or writing some of the
           interface-related Learn Enough tutorials.
         </p>
-      <div>
+      </div>
     </div>
     <div class="bio-box">
       <h3>Nick Merwin</h3>
@@ -73,7 +87,7 @@
           heart. He's just as happy shredding well-spec'd lines of code from a tour
           bus as he is from his kitchen table.
         </p>
-      <div>
+      </div>
     </div>
     <div class="bio-box">
       <h3>??</h3>
